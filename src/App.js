@@ -53,7 +53,12 @@ function App() {
   }, []);
 
   const handleValue = (event) => {
-    console.log("event.target :", event.target);
+    if (event.target.classList.contains("icon")) {
+      const newValue = event.target.dataset.label;
+      console.log("newValue :", newValue);
+      setValue(person[newValue]);
+      setTitle(newValue);
+    }
   };
 
   return (
