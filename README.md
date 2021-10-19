@@ -1,6 +1,6 @@
 # Deployed site
 
-Check it out [here](https://react-random-user.netlify.app)
+Check it out [here](https://luft-random-user.netlify.app)
 
 # Description
 
